@@ -6,39 +6,57 @@ namespace Module1Review
     {
         static void Main(string[] args)
         {
+            int choice;
+            Console.WriteLine("Please enter 1 for a Circle, 2 for a Triangle, 3 for a Rectangle, or 4 for a Square:");
+            choice = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Circle -- Please enter the radius:");
-            double radius = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The area of such a circle is:");
-            Console.WriteLine(Circle(radius));
-            Console.WriteLine();
+            switch (choice)
+            {
+                case 1:
 
+                    Console.WriteLine("Circle -- Please enter the radius:");
+                    double radius = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("The area of such a circle is:");
+                    Console.WriteLine(Circle(radius));
+                    Console.WriteLine();
+                    break;
+                
+                case 2:
 
-            Console.WriteLine("Triangle -- Please enter the length of the base:");
-            double baseLength = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please enter the height:");
-            double height = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The area of that triangle is:");
-            Console.WriteLine(Triangle(baseLength, height));
-            Console.WriteLine();
+                    Console.WriteLine("Triangle -- Please enter the length of the base:");
+                    double baseLength = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Please enter the height:");
+                    double height = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("The area of that triangle is:");
+                    Console.WriteLine(Triangle(baseLength, height));
+                    Console.WriteLine();
+                    break;
+                
+                case 3:
 
+                    Console.WriteLine("Rectangle -- Please enter the length of the rectangle:");
+                    double length = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Please enter the width:");
+                    double width = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("The area is:");
+                    Console.WriteLine(Rectangle(length, width));
+                    Console.WriteLine();
+                    break;
+                
+                case 4:
 
-            Console.WriteLine("Rectangle -- Please enter the length of the rectangle:");
-            double length = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please enter the width:");
-            double width = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The area is:");
-            Console.WriteLine(Rectangle(length, width));
-            Console.WriteLine();
+                    Console.WriteLine("Square -- Please enter the length of a side:");
+                    double side = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("The area is:");
+                    Console.WriteLine(Square(side));
+                    Console.WriteLine();
+                    break;
+                
+                default:
 
-
-            Console.WriteLine("Square -- Please enter the length of a side:");
-            double side = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The area is:");
-            Console.WriteLine(Square(side));
-            Console.WriteLine();
-
-
+                    Console.WriteLine("You entered something improper.");
+                    break;
+            }
 
             static double Circle(double radius)
             {
