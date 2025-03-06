@@ -6,17 +6,24 @@ namespace Module1Review
     {
         static void Main(string[] args)
         {
-
+            double a, b;
 
             Console.WriteLine("Please enter an integer:");
-            double a = Convert.ToDouble(Console.ReadLine());
+            a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please enter another integer:");
-            double b = Convert.ToDouble(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
 
 
-            Console.WriteLine($"{a} plus {b} equals:");
-            Console.WriteLine(Add(a, b));
+
+            Console.WriteLine("Please enter a radius:");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"The area of such a circle is:");
+            Console.WriteLine(Circle(a));
+
+
+            //Console.WriteLine($"{a} plus {b} equals:");
+            //Console.WriteLine(Add(a, b));
 
             Console.WriteLine($"{a} minus {b} equals:");
             Console.WriteLine(Subtract(a, b));
@@ -28,9 +35,9 @@ namespace Module1Review
             Console.WriteLine(Divide(a, b));
 
 
-            static double Add(double a, double b)
+            static double Circle(double a)
             {
-                return a + b;
+                return 3.141593*a*a;
             }
 
             static double Multiply(double a, double b)
