@@ -12,3 +12,4 @@ C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\refint\
 C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.pdb
 C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.genruntimeconfig.cache
 C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\ref\Module1Review.dll
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.sourcelink.json

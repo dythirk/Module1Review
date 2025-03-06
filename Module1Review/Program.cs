@@ -9,10 +9,10 @@ namespace Module1Review
 
 
             Console.WriteLine("Please enter an integer:");
-            int a = Convert.ToInt32(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please enter another integer:");
-            int b = Convert.ToInt32(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
 
 
             Console.WriteLine($"{a} plus {b} equals:");
@@ -28,22 +28,22 @@ namespace Module1Review
             Console.WriteLine(Divide(a, b));
 
 
-            static int Add(int a, int b)
+            static double Add(double a, double b)
             {
                 return a + b;
             }
 
-            static int Multiply(int a, int b)
+            static double Multiply(double a, double b)
             {
                 return a * b;
             }
 
-            static int Subtract(int a, int b)
+            static double Subtract(double a, double b)
             {
                 return a - b;
             }
 
-            static int Divide(int a, int b)
+            static double Divide(double a, double b)
             {
                 return a / b;
             }
