@@ -1,0 +1,14 @@
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\bin\Debug\net8.0\Module1Review.exe
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\bin\Debug\net8.0\Module1Review.deps.json
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\bin\Debug\net8.0\Module1Review.runtimeconfig.json
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\bin\Debug\net8.0\Module1Review.dll
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\bin\Debug\net8.0\Module1Review.pdb
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.AssemblyInfoInputs.cache
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.AssemblyInfo.cs
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.csproj.CoreCompileInputs.cache
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.dll
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\refint\Module1Review.dll
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.pdb
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\Module1Review.genruntimeconfig.cache
+C:\Users\Thai\Desktop\repos\Module1Review\Module1Review\obj\Debug\net8.0\ref\Module1Review.dll

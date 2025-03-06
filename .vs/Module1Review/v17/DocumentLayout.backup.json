@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thai\\Desktop\\repos\\Module1Review\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05D8CAEA-B2F4-4D9E-BD86-30FF2F6B9D6B}|Module1Review\\Module1Review.csproj|c:\\users\\thai\\desktop\\repos\\module1review\\module1review\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D8CAEA-B2F4-4D9E-BD86-30FF2F6B9D6B}|Module1Review\\Module1Review.csproj|solutionrelative:module1review\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thai\\Desktop\\repos\\Module1Review\\Module1Review\\Program.cs",
+              "RelativeDocumentMoniker": "Module1Review\\Program.cs",
+              "ToolTip": "C:\\Users\\Thai\\Desktop\\repos\\Module1Review\\Module1Review\\Program.cs*",
+              "RelativeToolTip": "Module1Review\\Program.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:02:23.258Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
