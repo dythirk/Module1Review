@@ -32,6 +32,13 @@ namespace Module1Review
             Console.WriteLine();
 
 
+            Console.WriteLine("Square -- Please enter the length of a side:");
+            double side = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"The area is:");
+            Console.WriteLine(Square(side));
+            Console.WriteLine();
+
+
 
             static double Circle(double radius)
             {
