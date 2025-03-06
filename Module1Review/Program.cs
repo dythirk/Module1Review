@@ -6,15 +6,6 @@ namespace Module1Review
     {
         static void Main(string[] args)
         {
-            //double a, b;
-
-            //Console.WriteLine("Please enter an integer:");
-            //a = Convert.ToDouble(Console.ReadLine());
-
-            //Console.WriteLine("Please enter another integer:");
-            //b = Convert.ToDouble(Console.ReadLine());
-
-
 
             Console.WriteLine("Circle -- Please enter the radius:");
             double radius = Convert.ToDouble(Console.ReadLine());
@@ -32,37 +23,34 @@ namespace Module1Review
             Console.WriteLine();
 
 
-            //Console.WriteLine($"{a} plus {b} equals:");
-            //Console.WriteLine(Add(a, b));
-
-            //Console.WriteLine($"{a} minus {b} equals:");
-            //Console.WriteLine(Subtract(a, b));
-
-            ////Console.WriteLine($"{a} times {b} equals:");
-            ////Console.WriteLine(Multiply(a, b));
-
-            //Console.WriteLine($"{a} divided by {b} equals:");
-            //Console.WriteLine(Divide(a, b));
+            Console.WriteLine("Rectangle -- Please enter the length of the rectangle:");
+            double length = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Please enter the width.");
+            double width = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The area is:");
+            Console.WriteLine(Rectangle(length, width));
+            Console.WriteLine();
 
 
-            static double Circle(double a)
+
+            static double Circle(double radius)
             {
-                return 3.141593*a*a;
+                return 3.141593 * radius * radius;
             }
 
-            static double Triangle(double b, double h)
+            static double Triangle(double baseLength, double height)
             {
-                return .5 * b * h;
+                return .5 * baseLength * height;
             }
 
-            static double Rectangle(double a, double b)
+            static double Rectangle(double length, double width)
             {
-                return a - b;
+                return length * width;
             }
 
-            static double Square(double a, double b)
+            static double Square(double side)
             {
-                return a / b;
+                return side * side;
             }
         }
     }
