@@ -9,14 +9,14 @@ namespace Module1Review
 
             Console.WriteLine("Circle -- Please enter the radius:");
             double radius = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"The area of such a circle is:");
+            Console.WriteLine("The area of such a circle is:");
             Console.WriteLine(Circle(radius));
             Console.WriteLine();
 
 
             Console.WriteLine("Triangle -- Please enter the length of the base:");
             double baseLength = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please enter the height.");
+            Console.WriteLine("Please enter the height:");
             double height = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("The area of that triangle is:");
             Console.WriteLine(Triangle(baseLength, height));
@@ -25,7 +25,7 @@ namespace Module1Review
 
             Console.WriteLine("Rectangle -- Please enter the length of the rectangle:");
             double length = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Please enter the width.");
+            Console.WriteLine("Please enter the width:");
             double width = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("The area is:");
             Console.WriteLine(Rectangle(length, width));
@@ -34,7 +34,7 @@ namespace Module1Review
 
             Console.WriteLine("Square -- Please enter the length of a side:");
             double side = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"The area is:");
+            Console.WriteLine("The area is:");
             Console.WriteLine(Square(side));
             Console.WriteLine();
 
